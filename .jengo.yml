@@ -1,0 +1,24 @@
+{
+	"language": {
+		"name": "java",
+		"version": 1.7
+	},
+	"buildscript": {
+		"name": "maven",
+		"version": 3
+	},
+	"$archive": {
+		"$cp": {
+			"path": "/export/pkgs/maven_acceptance_test"
+		},
+		"$artifactory": {
+			"url": "https://artifactory.com",
+			"accesskey": 1
+		}
+	}
+	“!PostRun”: {
+		“!prepend”: { “$action1”: “...”}
+		“!append”: { “$action2”: “...”}
+		“!define”: { “$action3”: “...”}
+            }
+}
