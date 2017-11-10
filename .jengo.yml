@@ -17,4 +17,3 @@ postrun:
         $action2: action2_value
     define:
         $action3: action3_value
-	
